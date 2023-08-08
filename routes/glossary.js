@@ -69,11 +69,6 @@ const glossaryTerms = [
         reference: 'https://cloud.google.com/architecture/devops/devops-measurement-monitoring-and-observability'
     },
     {
-        term: 'Monitoring and Observability',
-        description: 'Monitoring involves tracking the performance and health of applications and infrastructure in real-time. Observability goes beyond monitoring by providing insights into the internal workings of systems, helping to troubleshoot issues more effectively.',
-        reference: 'https://cloud.google.com/architecture/devops/devops-measurement-monitoring-and-observability'
-    },
-    {
         term: 'Feedback Loop',
         description: 'A Feedback Loop refers to the process of collecting, evaluating, and incorporating input or information from various sources into a continuous cycle of improvement. In software development, feedback loops can occur at different stages, such as during code reviews, testing, user acceptance testing, and post-deployment monitoring. These loops help teams identify issues, make necessary adjustments, and refine their processes or products based on the received feedback',
         reference: 'https://www.bmc.com/blogs/devops-feedback-loops/'
@@ -102,6 +97,11 @@ const glossaryTerms = [
         term: 'Containers',
         description: 'Containers in DevOps are lightweight, standalone software packages that contain all the necessary code, runtime, libraries, and settings needed to run an application. They offer consistent and isolated environments across different stages of development, from testing to production, facilitating portability and scalability.',
         reference: 'https://www.netapp.com/devops-solutions/what-are-containers/'
+    },
+    {
+        term: 'Docker',
+        description: ' Docker is a platform and toolset used in DevOps to develop, deploy, and manage applications using containerization technology. It allows developers to package an application along with its dependencies, libraries, and runtime environment into a standardized container. These containers can be easily transported between different environments, such as development, testing, and production, ensuring consistent behavior and simplifying deployment. ',
+        reference: 'https://osswangxining.github.io/files/docker-mta/WP_Docker%20and%20the%203%20ways%20devops.pdf'
     }
 ];
 
