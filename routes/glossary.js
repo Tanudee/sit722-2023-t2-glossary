@@ -9,24 +9,49 @@ const glossaryTerms = [
         reference: 'https://www.atlassian.com/devops'
     },
     {
-        term: 'Express',
-        description: 'Express is a minimal and flexible Node.js web application framework that provides a set of features for building web and mobile applications.',
-        reference: 'https://expressjs.com/'
+        term: 'Continuous Integration (CI)',
+        description: 'Continuous Integration is a DevOps practice where code changes are frequently integrated into a shared repository. Automated build and test processes are triggered upon each integration to identify and address integration issues early in the development lifecycle.',
+        reference: 'https://en.wikipedia.org/wiki/Continuous_integration'
     },
     {
-        term: 'GitHub',
-        description: 'GitHub is a web-based platform that provides version control and collaboration tools for software development projects.',
-        reference: 'https://github.com/'
+        term: 'Continuous Delivery (CD)',
+        description: 'Continuous Integration is a DevOps practice where code changes are frequently integrated into a shared repository. Automated build and test processes are triggered upon each integration to identify and address integration issues early in the development lifecycle.',
+        reference: 'https://en.wikipedia.org/wiki/Continuous_delivery'
     },
     {
-        term: 'EJS',
-        description: 'EJS (Embedded JavaScript) is a template engine that allows you to embed JavaScript code within HTML templates.',
-        reference: 'https://ejs.co/'
+        term: 'Infrastructure as Code (IaC)',
+        description: 'Infrastructure as Code is a practice of managing and provisioning infrastructure using code and automation tools. It allows developers to define and manage infrastructure resources (servers, networks, etc.) in a version-controlled manner, enhancing consistency and reproducibility.',
+        reference: 'https://en.wikipedia.org/wiki/Infrastructure_as_code'
     },
     {
-        term: 'HTML',
-        description: 'HTML (Hypertext Markup Language) is the standard markup language for creating web pages and web applications.',
-        reference: 'https://developer.mozilla.org/en-US/docs/Web/HTML'
+        term: 'Automation',
+        description: 'Automation involves the use of scripts, tools, and processes to replace manual tasks and workflows. It aims to reduce human error, improve efficiency, and ensure consistent and repeatable processes.',
+        reference: 'https://www.atlassian.com/devops/devops-tools/test-automation'
+    },
+    {
+        term: 'Containerization',
+        description: 'Containerization is a technology that allows applications and their dependencies to be packaged together in a lightweight, isolated environment known as a container. Containers provide consistency across different environments, making deployment and scaling more efficient.',
+        reference: 'https://geekflare.com/containerization-in-devops/'
+    },
+    {
+        term: 'Version Control',
+        description: 'Version Control is the practice of tracking and managing changes to code, documents, and other files over time. It enables collaboration, helps manage conflicts, and provides a history of changes.',
+        reference: 'https://learn.microsoft.com/en-us/devops/develop/git/what-is-version-control'
+    },
+    {
+        term: 'Microservices',
+        description: 'Microservices is an architectural approach where an application is composed of small, independently deployable and manageable services. Each service focuses on a specific business capability and communicates over well-defined APIs.',
+        reference: 'https://www.spiceworks.com/tech/devops/articles/what-are-microservices/'
+    },
+    {
+        term: 'Monitoring and Observability',
+        description: 'Monitoring involves tracking the performance and health of applications and infrastructure in real-time. Observability goes beyond monitoring by providing insights into the internal workings of systems, helping to troubleshoot issues more effectively.',
+        reference: 'https://cloud.google.com/architecture/devops/devops-measurement-monitoring-and-observability'
+    },
+    {
+        term: 'Release Management',
+        description: 'Release Management is the process of planning, scheduling, and coordinating the deployment of software releases into different environments, such as testing, staging, and production. It involves ensuring that the release process is smooth and minimizes disruptions.',
+        reference: 'https://www.bmc.com/blogs/devops-release-management/'
     }
 ];
 
