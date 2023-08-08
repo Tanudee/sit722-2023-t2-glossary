@@ -1,0 +1,28 @@
+<!-- views/glossary.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Glossary</title>
+</head>
+<body>
+    <h1>Glossary of Terms</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Term</th>
+                <th>Description</th>
+                <th>Reference</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% glossaryTerms.forEach(term => { %>
+            <tr>
+                <td><%= term.term %></td>
+                <td><%= term.description %></td>
+                <td><a href="<%= term.reference %>" target="_blank">Learn More</a></td>
+            </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</body>
+</html>
