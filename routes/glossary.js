@@ -4,9 +4,12 @@ const router = express.Router();
 
 const glossaryTerms = [
     {
-        term: 'Node.js',
-        description: 'Node.js is an open-source runtime environment for executing JavaScript code on the server side.',
-        reference: 'https://nodejs.org/'
+        term: 'DevOps',
+        description: 'DevOps is a set of practices, principles, and cultural philosophies that aim to 
+            improve collaboration and communication between software development and IT operations teams. 
+            It focuses on automating processes, accelerating software delivery, and ensuring continuous feedback 
+            to deliver high-quality software.',
+        reference: 'https://www.atlassian.com/devops'
     },
     {
         term: 'Express',
