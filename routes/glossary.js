@@ -102,6 +102,56 @@ const glossaryTerms = [
         term: 'Docker',
         description: ' Docker is a platform and toolset used in DevOps to develop, deploy, and manage applications using containerization technology. It allows developers to package an application along with its dependencies, libraries, and runtime environment into a standardized container. These containers can be easily transported between different environments, such as development, testing, and production, ensuring consistent behavior and simplifying deployment. ',
         reference: 'https://osswangxining.github.io/files/docker-mta/WP_Docker%20and%20the%203%20ways%20devops.pdf'
+    },
+        {
+        term: 'Containerization',
+        description: 'Containerization is a method of packaging applications along with their dependencies into isolated, portable units known as containers. These containers ensure consistent and efficient deployment across various computing environments, simplifying application management and scalability.',
+        reference: 'https://www.papertrail.com/solution/tips/what-are-containers-and-containerization-in-devops/'
+    },
+        {
+        term: 'Kubernetes',
+        description: 'Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It provides a powerful set of tools for maintaining the health and performance of application containers, making it easier to manage large-scale container deployments.',
+        reference: 'https://intellipaat.com/blog/kubernetes-and-devops/'
+    },
+        {
+        term: 'Repositories',
+        description: 'Repositories are centralized storage locations where developers store and manage code, application artifacts, or container images. They serve as version control systems, facilitating collaboration among development teams and enabling the tracking of changes to code and artifacts over time.',
+        reference: 'https://www.javatpoint.com/azure-devops-repository/'
+    },
+        {
+        term: 'Orchestration',
+        description: 'Orchestration in DevOps involves automating and coordinating various tasks and services in the software development and deployment process. It ensures that all components of an application work seamlessly together, from code building and testing to deployment and scaling, enhancing efficiency and reliability.',
+        reference: 'https://www.dynatrace.com/knowledge-base/devops-orchestration/'
+    },
+        {
+        term: 'Cloud-native',
+        description: 'Cloud-native refers to the practice of designing and building applications specifically for cloud environments. These applications are typically composed of microservices, packaged in containers, and utilize cloud services like serverless computing, optimizing resource utilization and scalability in the cloud.',
+        reference: 'https://www.bmc.com/blogs/cloud-native-devops/'
+    },
+        {
+        term: 'Docker Compose',
+        description: 'Docker Compose is a tool that simplifies the deployment of multi-container Docker applications. It allows developers to define the structure and dependencies of a multi-container application in a single YAML file, making it easier to manage complex containerized systems.',
+        reference: 'https://docs.docker.com/compose/'
+    },
+        {
+        term: 'Overlay Network',
+        description: 'An overlay network is a virtual network created on top of an existing network infrastructure. It enables containers or services to communicate securely across different hosts and networks, abstracting the complexities of the underlying physical network.',
+        reference: 'https://www.netmaker.io/resources/network-automation-for-devops-the-future-of-cloud-infrastructure/'
+    },
+        {
+        term: 'Macvlan Network',
+        description: 'Macvlan is a Docker network driver that enables containers to connect directly to a physical network, giving them unique MAC addresses and allowing them to appear as independent devices on the network. This is useful for scenarios where containers need direct access to the host network.',
+        reference: 'https://www.knowledgehut.com/blog/devops/docker-networking/'
+    },
+        {
+        term: 'Bridge Network',
+        description: 'A bridge network is the default Docker network mode that establishes a private, internal network on a host. Containers connected to this network can communicate with each other and with the host, while remaining isolated from the external network, providing a level of network security and control.',
+        reference: 'https://docs.docker.com/network/drivers/bridge/'
+    },
+        {
+        term: 'Hypertext Transfer Protocol',
+        description: 'In DevOps, HTTP (Hypertext Transfer Protocol) plays a crucial role in enabling the seamless integration and communication between various components of a software delivery pipeline. It facilitates the transfer of code, artifacts, and configuration files between development, testing, and production environments.',
+        reference: 'https://blog.devgenius.io/devops-in-linux-http-protocol-f5863e4f98b2'
     }
 ];
 
