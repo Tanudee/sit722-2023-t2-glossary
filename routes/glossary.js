@@ -150,7 +150,7 @@ const glossaryTerms = [
     },
     {
         term: 'Hypertext Transfer Protocol',
-        description: 'In DevOps, HTTP (Hypertext Transfer Protocol) plays a crucial role in enabling the seamless integration and communication between various components of a software delivery pipeline. It facilitates the transfer of code, artifacts, and configuration files between development, testing, and production environments.',
+        description: 'In the DevOps, HTTP (Hypertext Transfer Protocol) plays a crucial role in enabling the seamless integration and communication between various components of a software delivery pipeline. It facilitates the transfer of code, artifacts, and configuration files between development, testing, and production environments.',
         reference: 'https://blog.devgenius.io/devops-in-linux-http-protocol-f5863e4f98b2'
     }
 ];
