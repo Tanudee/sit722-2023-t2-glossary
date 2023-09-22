@@ -150,8 +150,58 @@ const glossaryTerms = [
     },
     {
         term: 'Hypertext Transfer Protocol',
-        description: 'In the DevOps, HTTP (Hypertext Transfer Protocol) plays a crucial role in enabling the seamless integration and communication between various components of a software delivery pipeline. It facilitates the transfer of code, artifacts, and configuration files between development, testing, and production environments.',
+        description: 'In DevOps, HTTP (Hypertext Transfer Protocol) plays a crucial role in enabling the seamless integration and communication between various components of a software delivery pipeline. It facilitates the transfer of code, artifacts, and configuration files between development, testing, and production environments.',
         reference: 'https://blog.devgenius.io/devops-in-linux-http-protocol-f5863e4f98b2'
+    },
+        {
+        term: 'Pod',
+        description: 'In Kubernetes, a pod is the smallest deployable unit that can hold one or more containers, sharing the same network namespace and storage, often used for running related processes.',
+        reference: 'https://www.vmware.com/au/topics/glossary/content/kubernetes-pods'
+    },
+        {
+        term: 'Kubelet',
+        description: 'kubelet is a Kubernetes node agent responsible for ensuring that containers are running in a pod, managing their lifecycles, and reporting node status to the control plane.',
+        reference: 'https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/'
+    },
+        {
+        term: 'Kube-proxy',
+        description: 'kube-proxy is a Kubernetes component that maintains network rules on nodes to enable network communication to and from pod services.',
+        reference: 'https://kubernetes.io/docs/reference/command-line-tools-reference/kube-proxy/'
+    },
+        {
+        term: 'Terraform',
+        description: 'Terraform is an open-source infrastructure as code (IAC) tool by HashiCorp for provisioning and managing cloud and on-premises infrastructure using declarative configuration files.',
+        reference: 'https://developer.hashicorp.com/terraform/intro'
+    },
+        {
+        term: 'HashiCorp',
+        description: ' HashiCorp is a company known for developing popular DevOps and infrastructure automation tools, including Terraform, Vault, Consul, and Nomad.',
+        reference: 'https://en.wikipedia.org/wiki/HashiCorp'
+    },
+        {
+        term: 'Deployment Pipeline',
+        description: ' A deployment pipeline is an automated series of steps in software development and delivery that ensures code changes are built, tested, and deployed in a consistent and repeatable manner.',
+        reference: 'https://octopus.com/devops/continuous-delivery/what-is-a-deployment/'
+    },
+        {
+        term: 'Automated Testing',
+        description: ' Automated testing refers to the practice of using automated scripts or tools to perform software testing tasks, such as unit testing, integration testing, and regression testing, to improve software quality and efficiency.',
+        reference: 'https://about.gitlab.com/topics/devops/devops-test-automation/'
+    },
+        {
+        term: 'Regression Test',
+        description: ' A regression test is a type of software test that checks whether recent code changes have negatively affected existing functionality by retesting previously validated features.',
+        reference: 'https://www.testingxperts.com/blog/regression-testing-in-devops/'
+    },
+        {
+        term: 'Jest',
+        description: 'Jest is a popular JavaScript testing framework developed by Facebook for testing JavaScript code, particularly suited for React applications, and includes features like mocking and snapshot testing.',
+        reference: 'https://stackshare.io/stackups/azure-devops-vs-jest'
+    },
+     {
+        term: 'Kubernetes',
+        description: 'Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It provides a powerful set of tools for maintaining the health and performance of application containers, making it easier to manage large-scale container deployments.',
+        reference: 'https://intellipaat.com/blog/kubernetes-and-devops/'
     }
 ];
 
