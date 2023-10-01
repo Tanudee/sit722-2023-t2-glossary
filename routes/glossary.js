@@ -202,6 +202,56 @@ const glossaryTerms = [
         term: 'Kubernetes',
         description: 'Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It provides a powerful set of tools for maintaining the health and performance of application containers, making it easier to manage large-scale container deployments.',
         reference: 'https://intellipaat.com/blog/kubernetes-and-devops/'
+    },
+    {
+        term: 'Kubernetes Cluster',
+        description: 'A Kubernetes cluster is a group of interconnected servers (nodes) that collectively manage and orchestrate containerized applications, offering features like auto-scaling and automated deployments.',
+        reference: 'https://www.vmware.com/au/topics/glossary/content/kubernetes-cluster'
+    },
+    {
+        term: 'RabbitMQ',
+        description: 'RabbitMQ is a message broker that plays a crucial role in facilitating communication and data exchange between various components of a distributed application or microservices architecture. It promotes loose coupling, scalability, and resilience, supporting DevOps practices like continuous integration and delivery.',
+        reference: 'https://glossarytech.com/terms/software-infrastructure-devops/rabbitmq'
+    },
+    {
+        term: 'MongoDB',
+        description: 'MongoDB, as a NoSQL database, can be utilized in DevOps to store and manage unstructured or semi-structured data. It aligns with DevOps principles by providing flexibility in adapting to changing data needs and integrating with CI/CD pipelines for data-related operations.',
+        reference: 'https://en.wikipedia.org/wiki/MongoDB'
+    },
+    {
+        term: 'Bitbucket',
+        description: ' Bitbucket is a platform that supports DevOps practices by offering Git and Mercurial repositories, code collaboration tools, and integration with CI/CD pipelines. It aids in version control, code review, and seamless collaboration among development and operations teams.',
+        reference: 'https://bitbucket.org/product/guides/getting-started/overview'
+    },
+    {
+        term: 'Bitbucket Pipelines',
+        description: 'Bitbucket Pipelines is a DevOps-friendly feature that automates CI/CD workflows directly from Bitbucket repositories. It allows DevOps teams to define, version, and execute their deployment pipelines, ensuring code quality and rapid, reliable deployments.',
+        reference: 'https://bitbucket.org/product/features/pipelines'
+    },
+    {
+        term: 'Azure Load Balancer',
+        description: ' Azure Load Balancer is a Microsoft Azure service that enhances application availability and scalability by distributing incoming network traffic across multiple resources or instances. It aligns with DevOps principles of ensuring high availability and reliability in cloud-based deployments.',
+        reference: 'https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview'
+    },
+    {
+        term: 'Robo 3T',
+        description: 'Robo 3T can be used in DevOps for database management tasks. It provides a graphical interface for developers and operations teams to interact with MongoDB databases, helping them manage data-related operations efficiently as part of a DevOps workflow.',
+        reference: 'https://www.softwaretestinghelp.com/mongodb/robo-3t-robomongo-tutorial/'
+    },
+    {
+        term: 'Atlassian',
+        description: 'Atlassian offers a suite of collaboration and project management tools like Jira, Confluence, and Bitbucket, which can be integrated into DevOps processes. These tools facilitate collaboration, issue tracking, and code management, supporting the DevOps principle of breaking down silos between development and operations teams.',
+        reference: 'https://www.atlassian.com/'
+    },
+    {
+        term: 'Deployment Shell Script ',
+        description: 'A deployment shell script is a script used in DevOps to automate the deployment process of software applications. It plays a vital role in ensuring consistent and repeatable deployments, aligning with the DevOps principle of automation in the software delivery pipeline.',
+        reference: 'https://dev.to/arafique458/shell-scripting-for-devops-1185'
+    },
+    {
+        term: 'Development Workstation',
+        description: 'A development workstation is the dedicated environment where developers work on code, collaborate, and integrate their work into the CI/CD pipeline. It is essential for practicing DevOps by enabling rapid development, testing, and integration of code changes.',
+        reference: 'https://azure.microsoft.com/en-au/products/dev-box'
     }
 ];
 
